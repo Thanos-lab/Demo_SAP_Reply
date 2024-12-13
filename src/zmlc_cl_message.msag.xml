@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Message class for Master Data import program</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Workcenter &amp;1 has wrong data! Please check again !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Material &amp;1 has wrong data! Please check again!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>BOM &amp;1 has wrong data! Please check again !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Routing &amp;1 has wrong data! Please check again !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>File browser cannot be open !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Something is wrong with the files path !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>No file with extension .TXT in the selected folder !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>&amp;1 Master Data was created successfully !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Material &amp;1 is flagged for deletion !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Activity Rate for cost center &amp;1 version &amp;2 activity type &amp;3 was created!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Master Data was not created !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>BOM for Material &amp;1 already exists !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>User Does not have permission to run this report !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>The provided path is not valid !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Customer &amp;1 was succesfully created !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Vendor &amp;1 was succesfully created !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Material &amp;1 already exists !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>&amp;1 Master Data is correct !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Master Data is inconsistent !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>File &amp;1* for object &amp;2 is empty !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>BOM for Material &amp;1 does not exist !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>&amp;3 &amp;1 : &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Customer &amp;1 is already created !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Vendor &amp;1 is already created !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Material &amp;1 does not exist !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Routing for Material &amp;1 already exists !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Please select an object to create Master Data !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>&amp;1 : &amp;2&amp;3&amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>An error has occured while updating Version Indicator Flag for Materials!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Customizing &amp;1 &amp;2 already exists for Segments !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Customizing &amp;1 &amp;2 already exists for Functional Area !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Customizing &amp;1 &amp;2 already exists for Material Groups !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Customizing &amp;1 &amp;2 already exists for Purchasing Groups !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Customizing &amp;1 &amp;2 already exists for Customer Groups !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Customizing &amp;1 &amp;2 already exists for Accounting Clerks !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>An error has occured while creating Customizing for Segments!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>An error has occured while creating Customizing for Functional Area !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>An error has occured while creating Customizing for Material Groups !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>An error has occured while creating Customizing for Purchasing Groups !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>An error has occured while creating Customizing for Customer Groups !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>An error has occured while creating Customizing for Accounting Clerks !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>&amp;1 Customizing was created successfully !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Customizing &amp;1 already exists for Profit Center Hierarchy  !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Customizing &amp;1 already exists for Cost Center Hierarchy  !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>Customizing &amp;1 &amp;2 already exists for MRP Controller !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>An error has occured while creating Customizing for MRP Controller !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>Error: File could not be fetched !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Error:No contents/Data found in the text file !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>&amp;1 : &amp;2 records of  Sales Data Uploaded Successfully !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>Error: Sales Data could not be uploaded !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>&amp;1 : &amp;2 records of  Procurement Data Uploaded Successfully !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>Error: Procurement Data could not be uploaded !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>&amp;1 : &amp;2 records of FB50 postings data Uploaded Successfully !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>Error: FB50 postings Data could not be uploaded !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>&amp;1 : &amp;2 records of Service Procurement Data Uploaded Successfully !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>Error: Service Procurement Data could not be uploaded !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>&amp;1 : &amp;2 Column name incorrect in the header</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMLC_CL_MESSAGE</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Error : Transactional Data Upload incomplete/Unsuccessful.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

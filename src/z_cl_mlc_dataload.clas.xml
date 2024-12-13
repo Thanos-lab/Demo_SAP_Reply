@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>Z_CL_MLC_DATALOAD</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Import transactional data class for MLC</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CALL_SAVE_TO_DB</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Call Save to DB methods</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_INPUT_FILES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check Input Files</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FILL_FILES_AND_PATHS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Fill Files and Paths</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FILL_REQUIRED_OBJECTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Fill Required Objects</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_FB50</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character field of length 40</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_FB50_F</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character field of length 40</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_MAX_END_DATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character field, 8 characters long</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_PROC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character field of length 40</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_PROC_F</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character field of length 40</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_PRODVERS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character field of length 40</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_PRODVERS_F</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character field of length 40</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_SALES_F</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character field of length 40</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_SERPRO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character field of length 40</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_SERPRO_F</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character field of length 40</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_TEST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Boolean Variable (X=True, -=False, Space=Unknown)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_VALID_FROM_DATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character Field Length = 10</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_VALID_TO_DATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character Field Length = 10</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PROCESS_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Process Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>RETRIEVE_FILE_CONTENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Retrieve File Content</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SAVE_FB50_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Save FB50 Data to DB Table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SAVE_PROCUREMENT_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Save Procurement data to DB table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SAVE_SALES_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Save Sales Data to DB Table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SAVE_SERPROC_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Save Service Procurement Data to DB Table</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CALL_SAVE_TO_DB</CMPNAME>
+     <SCONAME>IV_OBJECT_NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>30 Characters</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_INPUT_FILES</CMPNAME>
+     <SCONAME>EV_ERROR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Boolean Variable (X=true, -=false, space=unknown)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FILL_FILES_AND_PATHS</CMPNAME>
+     <SCONAME>IV_FILENAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character field of length 40</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FILL_REQUIRED_OBJECTS</CMPNAME>
+     <SCONAME>IV_TEST</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Boolean Variable (X=True, -=False, Space=Unknown)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PROCESS_DATA</CMPNAME>
+     <SCONAME>EV_ERROR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Boolean Variable (X=True, -=False, Space=Unknown)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>RETRIEVE_FILE_CONTENT</CMPNAME>
+     <SCONAME>EV_ERROR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Boolean Variable (X=true, -=false, space=unknown)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>RETRIEVE_FILE_CONTENT</CMPNAME>
+     <SCONAME>IV_OBJECT_NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>30 Characters</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>RETRIEVE_FILE_CONTENT</CMPNAME>
+     <SCONAME>IV_SEQUENCE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Natural number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SAVE_FB50_DATA</CMPNAME>
+     <SCONAME>EV_ERROR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Boolean Variable (X=true, -=false, space=unknown)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SAVE_PROCUREMENT_DATA</CMPNAME>
+     <SCONAME>EV_ERROR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Boolean Variable (X=true, -=false, space=unknown)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SAVE_SALES_DATA</CMPNAME>
+     <SCONAME>EV_ERROR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Boolean Variable (X=true, -=false, space=unknown)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SAVE_SERPROC_DATA</CMPNAME>
+     <SCONAME>EV_ERROR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Boolean Variable (X=true, -=false, space=unknown)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SAVE_SERPROC_DATA</CMPNAME>
+     <SCONAME>IT_SERPROC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Boolean Variable (X=true, -=false, space=unknown)</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
